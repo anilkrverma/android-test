@@ -39,7 +39,8 @@ android_local_test(
         ":service_fixture_impl",
         "//ext/junit",
         "//runner/monitor",
-        "@robolectric//bazel:robolectric",
         "@maven//:com_google_truth_truth",
+        "@maven//:org_robolectric_robolectric",
+        "@robolectric//bazel:android-all",
     ],
 )
